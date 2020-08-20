@@ -1,6 +1,6 @@
 class TicTacToe
-  def initialize(board = nil)
-    @board = 
+  def initialize
+    @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
   
   WIN_COMBINATIONS = [
